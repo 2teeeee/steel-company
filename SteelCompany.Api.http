@@ -1,0 +1,7 @@
+@SteelCompany.Api_HostAddress = http://localhost:5279
+
+GET {{SteelCompany.Api_HostAddress}}/we
+    atherforecast/
+Accept: application/json
+
+###
