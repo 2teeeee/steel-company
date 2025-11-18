@@ -1,8 +1,23 @@
 {
-  "home": "خانه",
-  "about": "درباره ما",
-  "news": "اخبار",
-  "products": "محصولات",
-  "clients": "مشتریان",
-  "related_links": "لینک‌های مرتبط"
+  "menu": {
+    "products": "محصولات",
+    "news": "اخبار",
+    "contact": "تماس با ما"
+  },
+  "products": {
+    "steel": "محصولات فولادی",
+    "rebar": "میلگرد",
+    "sheet": "ورق فولادی",
+    "profile": "پروفیل"
+  },
+  "services": {
+    "title": "خدمات",
+    "cutting": "برش فولاد",
+    "shaping": "فرم‌دهی"
+  },
+  "company": {
+    "title": "شرکت",
+    "about": "درباره ما",
+    "team": "تیم ما"
+  }
 }

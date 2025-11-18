@@ -17,7 +17,10 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'fa',
   },
-  css: ['~/assets/fonts/iranYekan/style.css'],
+  css: [
+    '~/assets/css/main.css',
+    '~/assets/fonts/iranYekan/style.css'
+  ],
   tailwindcss: {
     exposeConfig: true,
     viewer: true,

@@ -1,12 +1,12 @@
 <template>
-  <main class="p-6">
-      <AppHeader />
+  <div>
+    <Navbar />
+    <main class="pt-20 container mx-auto py-6 px-4">
       <NuxtPage />
-      <AppFooter />
-  </main>
+    </main>
+  </div>
 </template>
 
-<script setup>
-  import AppHeader from "../components/AppHeader.vue";
-  import AppFooter from "../components/AppFooter.vue";
+<script setup lang="ts">
+import Navbar from '../components/Navbar.vue';
 </script>
